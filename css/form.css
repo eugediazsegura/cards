@@ -1,0 +1,112 @@
+section.formulario{
+    width: 35%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.formulario h2{
+    font-size: 54px;
+    font-weight: 600;
+    color: var(--gris-oscuro);
+}
+
+.flechita select{
+    color: black;
+    background: url("../assets/flechita.png");
+    background-repeat: no-repeat;
+    background-position: 99% center;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input, select, textarea{
+    width: 100%;
+    margin-top: 20px;
+    color: var(--gris-oscuro);
+    padding: 20px;
+    border: 1px solid black;
+    
+}
+select, option{
+    color: black;
+    font-family: var(--Karla);
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+
+input::placeholder{
+    color: black;
+    font-family: var(--Karla);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+option{
+    margin-left:50px;
+    font-size: 15px;
+}
+.register-nac{
+    padding: 15px 27px;
+    width: 100%;
+}
+.register-nac option{
+    font-size: 14px;
+    padding: 15px 27px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons input{
+    width: 48%;
+    border-radius: 41px;
+    font-family: 'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 16px;
+    border: none;
+}
+
+input[type="submit"]{
+    background-color: var(--verde);
+    color: black;
+}
+
+input[value="Entrar"]{
+    width: 100%;
+}
+
+input[type="reset"]{
+    background-color: var(--gris-claro);
+    color: white;
+}
+input[type="submit"]:hover{
+    cursor: pointer;
+    background-color: black;
+    color: var(--verde);
+}
+input[type="reset"]:hover{
+    cursor: pointer;
+    background-color: var(--gris-oscuro);
+    color: white;
+}
+.ingresar-cuenta,  .crear-cuenta{
+    font-family: var(--Karla);
+    text-align: center;
+    padding: 20px;
+}
+
+.ingresar-cuenta a, .crear-cuenta{
+    color: var(--azul);
+    font-family: var(--Karla);
+}
+
+.crear-cuenta a{
+    color: black;
+    font-family: var(--Karla);
+}
+

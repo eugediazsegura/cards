@@ -1,0 +1,261 @@
+.card-content{
+    background-color: var(--azul);
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width:66%;
+    margin-top: 40px;
+    border-radius: 40px;
+    height: 100%;
+}
+.card-content h1{
+    font-family: var(--Inter);
+    font-size: 2.5rem;
+    line-height: 4rem;
+}
+
+.card-content h3{
+    font-family: var(--Inter);
+    font-weight: 200;
+    font-size: 1.25rem;
+}
+
+.form-heroe{
+    width: 88%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+fieldset{
+    border: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+
+.card-content label{
+    width: 43%;
+    font-family: var(--Inter);
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+.card-content select, .card-content input:not([type='checkbox']){
+    background-color: white;
+    font-family: var(--Inter);
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+    appearance: none;
+    outline: none;
+    border: none;  
+    border-radius:16px;
+    margin-bottom: 30px;
+    
+}
+
+.card-content input, .card-content select, .card-content textarea{
+    margin-top: 13px;
+}
+
+.card-content input[type='text'] {
+    color: #000;
+}
+
+.card-content input[type='date']{
+    font-size: 0.8rem;
+    padding: 16px;
+}
+
+main.form input, main.form select, main.form option{
+    padding:15px;
+}
+
+.card-content select:focus {
+    color: black;
+    font-weight: 300;
+}
+
+input#btn_enviar{
+    background-color: transparent;
+    color: black;
+    border-radius: 5px;
+    padding: 0;
+    font-size: 0.5rem;
+    color: black;
+    font-family: var(--Inter);
+    font-weight: 500;
+    margin-top: 30px;
+}
+
+input#btn_enviar::file-selector-button {
+    background-color: #CECECE;
+    border: none;
+    width: 60%;
+    font-family: var(--Inter);
+    border-radius: 5px;
+    font-size: 0.6rem;
+    text-align: left;
+    line-height: 1.9rem;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+
+input#btn_enviar::-moz-file-upload-button-button{
+    background-color: #CECECE;
+    border: none;
+    width: 80%;
+    font-family: var(--Inter);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 1.9rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+input#btn_enviar::-ms-file-upload-button{
+    background-color: #CECECE;
+    border: none;
+    width: 60%;
+    font-family: var(--Inter);
+    border-radius: 5px;
+    font-size: 0.8rem;
+    text-align: left;
+    line-height: 1.9rem;
+    margin-right: 20px;
+    cursor: pointer;
+}
+textarea#descripcion, div.check-radio{
+    border-radius: 16px;
+    border: none;
+    width: 43%;
+    font-family: var(--Inter);
+    font-size: 1rem;
+    color: #000;
+}
+
+div.check-radio{
+    color: white;
+    position: relative;
+}
+
+div.check-radio .opciones{
+    width: auto;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 100;
+    margin-top: 10px;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    
+}
+
+div.check-radio label:first-child{
+    display: block;
+}
+
+div.check-radio input {
+    margin-right: 11px;
+    border-radius: 50%;
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    height: 18px;
+    width: 18px;
+    
+}
+
+
+
+label.opciones::after {
+    content: '';
+    background: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 3px;
+    margin-right: 1rem;
+    cursor: pointer;
+    border: 0.1px solid white; 
+    float: left;
+
+    
+}
+
+div.check-radio input:checked + label.opciones::after{
+    background: #34CEFF;
+    content: url("../assets/check.png");
+    display: flex;
+    border: 0.1px solid white; 
+    width: 18px;
+    justify-content: center;
+}
+
+.check-radio .opciones{
+    font-family: var(--Karla);
+    font-weight: 200;
+}
+
+.card-content label[for='personaje']{
+    width: 100%;
+}
+
+.radio label.opciones::after{
+    border-radius: 50%;
+}
+
+div.check-radio .radio input:checked + label.opciones::after{
+    content: '';
+    border: 2px solid #fff;
+    box-sizing: content-box;
+    width: 16px;
+    height: 16px;
+}
+div.check-radio .radio input{
+    box-sizing: border-box;
+}
+.checkbox {
+    border-bottom: 0.01rem solid #fff;
+    padding-bottom: 20px;
+}
+
+.radio {
+    margin-top: 20px;
+}
+
+.card-content input.añadir {
+    background-color: #1CD1B0;
+    font-family: var(--Inter);
+    color: black;
+    font-size: 2rem;
+    font-weight: 700;
+    width: 55%;
+    margin-top: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.card-content input.añadir:hover{
+    background: var(--negro);
+    color: white;
+
+}
+
+.form input#name:focus, .form textarea:focus {
+    background: #AFF9FE;
+
+}
+
+textarea{
+    outline: none;
+}
+
+input#fecha:invalid {
+    border: 1.53407px solid #FF0000;
+    box-sizing: border-box;
+}
+
+input#name:valid {
+    border: 1.53407px solid #71FF40;
+    box-sizing: border-box;
+}

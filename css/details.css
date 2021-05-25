@@ -1,0 +1,97 @@
+header .details{
+    height: 100px;
+}
+
+header h1.title-detail{
+    font-size: 3rem;
+    padding: 25px;
+}
+
+main.detail-bg{
+    text-align: center;
+    background-image: url("../assets/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card.content{
+    margin-top: 212px;
+}
+
+.card-info{
+    border-radius: 6%;
+    max-width: 500px;
+    margin: 170px 25px;
+    max-height: 500px;
+    height: 480px;
+    background-color: var(--gris);
+    display: inline-block;
+    position: relative;
+
+}
+
+.detail-bg .profile{
+    width: 9rem;
+    height: 9rem;
+}
+
+.title-card{
+    color: var(--violeta);
+    text-decoration: underline;
+    padding: 79px 0 11px;
+}
+
+.card-info p{
+    text-align: left;
+    padding: 2px 15px;
+    line-height: 20px;
+    font-weight: 430;
+}
+.violeta{
+    color: var(--violeta);
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.button-tohome {
+    width: 100%;
+    position: absolute;
+    background: var(--violeta);
+    bottom: 0;
+    border-radius: 0 0 29px 28px;
+    height: 81px;
+    left: 0;
+}
+.button-tohome a{
+    display: block;
+    padding: 29px;
+    font-size: 20px;
+}
+
+.corazon-pixel{
+    position: absolute;
+    left: 20px;
+    top: 45px;
+}
+
+.iconos-content img {
+    height: 63px;
+    margin: 0 auto;
+    vertical-align: sub;
+    padding: 17px 10px;
+}
+
+.fas.fa-plus-circle {
+    color: var(--azul);
+    font-size: 46px;
+    position: fixed;
+    top: 500px;
+    right: 20px;   
+}
+
+.fa-plus-circle:hover {
+    color:var(--negro);
+
+}

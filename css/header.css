@@ -1,0 +1,54 @@
+body{
+    position: relative;
+}
+header{
+    position: relative
+}
+
+header p{
+    color: black;
+    background-color: var(--verde);
+    padding: 2px 0 3px 20px;
+    font-family: var(--Roboto);
+    font-size: 15px;
+    font-weight: 500;
+
+}
+
+header div {
+    background-color: var(--azul);
+    display: inline-block;
+    width: 100%;
+    color: white;
+    
+}
+
+header h1{
+    display: inline-block;
+    font-weight: 400;
+    padding-top: 14px;
+    font-size: 26px;
+}
+
+header img{
+    vertical-align: -35px;
+    padding: 7px 18px;
+}
+
+nav{
+    background: var(--negro); 
+    text-align: right;
+    box-shadow: 0px 3px 5px rgb(0 0 0 / 30%);
+    position: sticky;
+    top: 0px;
+    z-index: 1;  
+}
+
+li{
+    display: inline-block;
+    padding: 10px 11px 10px;
+}
+
+a{
+    color: white;
+}
